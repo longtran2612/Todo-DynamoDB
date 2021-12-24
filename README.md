@@ -1,1 +1,1 @@
-Spring boot + AWS DynamoDB
+Spring boot + AWS DynamoDB + AWS S3
