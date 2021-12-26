@@ -24,8 +24,8 @@ public class TaskRepository {
         return dynamoDBMapper.scan(Task.class, new DynamoDBScanExpression());
     }
 
-    public Task findById(String task) {
-        return dynamoDBMapper.load(Task.class, task);
+    public Task findById(String id) {
+        return dynamoDBMapper.load(Task.class, id);
     }
 
 

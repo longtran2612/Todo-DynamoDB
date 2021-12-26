@@ -28,8 +28,5 @@ public class Todo {
     private boolean complete;
 
     @DynamoDBAttribute
-    private String address;
-
-    @DynamoDBAttribute
     private User user;
 }
